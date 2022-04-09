@@ -1,0 +1,31 @@
+{
+  "name": "tweetsblog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajay2246/TweetsBlog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajay2246/TweetsBlog/issues"
+  },
+  "homepage": "https://github.com/ajay2246/TweetsBlog#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-mongodb-session": "^3.1.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "mongodb": "^4.4.1",
+    "mongoose": "^6.2.3",
+    "nodemon": "^2.0.15",
+    "validator": "^13.7.0"
+  }
+}
